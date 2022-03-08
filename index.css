@@ -12,8 +12,8 @@ body{
     box-shadow: 1px 1px 30px .5px rgb(31, 43, 224);
     padding:20px;
     position:absolute;
-    top:30vh;
-    left: 30vw;
+    top:25vh;
+    left: 35%;
     /* background-color: rgb(184, 248, 248); */
 }
 h1{
@@ -42,9 +42,10 @@ h1{
     border-radius:5px;
 }
 .item{
+    text-transform: capitalize;
     height:50px;
     display:flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items:center;
     padding-top:5px;
     border-bottom: .1px solid black;
